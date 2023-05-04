@@ -1,0 +1,143 @@
+html{
+    margin:0px;
+    background-color: burlywood;
+}
+
+.navigation{
+    display:flex;
+    align-items: center;
+    margin:10px;
+   
+}
+#button_click{
+    width:max-content;
+    margin:5px;
+    
+}
+
+#button_click:hover{
+    background-color:lightgoldenrodyellow;
+}
+/* #button_click::active{
+    background-color: thistle;
+    color:white;
+} */
+#row-col{
+    margin-bottom:10px;
+}
+
+#gallery{
+    margin:65.98px 10px 10px 10px;
+
+}
+
+.row{
+padding:15px;
+}
+
+h1{
+    padding:10px;
+}
+
+
+.card{
+    display:flex;
+    align-items: center;
+}
+
+.foot_card{
+display:flex;
+justify-content: space-between;
+}
+/* mobile */
+@media screen and (min-width:0px) and (max-width:576px){
+#footer{
+    background-color: aliceblue;
+    height: max-content;
+    display: block;
+align-items: center;
+
+}
+#img1{
+    display:inline;
+  
+    margin: 10px;
+padding:10px;
+}
+#info{
+    display:block;
+    margin: 10px;
+padding:10px;
+}
+#img2{
+    display:block;
+    margin: 10px;
+padding:10px;
+}
+    
+}
+/* tablet */
+@media screen and (min-width:577px) and (max-width:992px){
+    #footer{
+        background-color: aliceblue;
+        height: max-content;
+        display: inline-block;
+    }
+    #img1{
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+    padding:10px;
+    }
+    #info{
+        display: block;
+        margin: 10px;
+    padding:10px;
+    }
+    #img2{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    padding:10px;
+    } 
+    
+}
+/* laptop */
+@media screen and (min-width:993px){
+    #footer{
+        background-color: aliceblue;
+        height: max-content;    
+        padding:20px;
+display:flex;
+justify-content: space-evenly;
+        
+    }
+    
+#info{
+    padding:20px;
+  }
+    
+}
+
+
+
+
+ /* mobile
+@media screen and (min-width:0px) and (max-width:576px){
+       
+    }
+     tablet 
+     @media screen and (min-width:577px) and (max-width:992px){
+              
+    } 
+     laptop 
+     @media screen and (min-width:993px){
+           
+    }  */
+
+
+
+
+
+
+
